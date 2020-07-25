@@ -77,7 +77,7 @@
 					<failOnNoGitDirectory>false</failOnNoGitDirectory>
 					<dotGitDirectory>/Users/giriadini/Documents/Git-Repos/demoapps/.git</dotGitDirectory>
 					<generateGitPropertiesFilename>
-						/Users/giriadini/Documents/Git-Repos/demoapps/git.properties
+						/Users/giriadini/Documents/Git-Repos/demoapps/demoapp/src/main/resources/git.properties
 					</generateGitPropertiesFilename>
 					<verbose>true</verbose>
 					<generateGitPropertiesFile>true</generateGitPropertiesFile>
