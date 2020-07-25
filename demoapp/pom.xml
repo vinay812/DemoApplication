@@ -69,6 +69,13 @@
 							<goal>revision</goal>
 						</goals>
 					</execution>
+					<execution>
+						<id>validate-the-git-infos</id>
+						<goals>
+							<goal>validateRevision</goal>
+						</goals>
+						<phase>package</phase>
+					</execution>
 
 				</executions>
 				<configuration>
@@ -77,7 +84,7 @@
 					<failOnNoGitDirectory>false</failOnNoGitDirectory>
 					<dotGitDirectory>/Users/giriadini/Documents/Git-Repos/demoapps/.git</dotGitDirectory>
 					<generateGitPropertiesFilename>
-						/Users/giriadini/Documents/Git-Repos/demoapps/demoapp/src/main/resources/git.properties
+						/Users/giriadini/Documents/Git-Repos/demoapps/git.properties
 					</generateGitPropertiesFilename>
 					<verbose>true</verbose>
 					<generateGitPropertiesFile>true</generateGitPropertiesFile>
