@@ -29,7 +29,7 @@ public class CommitInfoController {
             return readFromInputStream(inputStream);
         } catch (IOException e) {
             e.printStackTrace();
-            return "Version information could not be retrieved";
+            return "Version information could not be retrieved ";
         }
     }
 
