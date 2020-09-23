@@ -13,7 +13,7 @@ public class CommitIdApplication {
         SpringApplication.run(CommitIdApplication.class, args);
     }
 
-    @Bean
+  /*  @Bean
     public static PropertySourcesPlaceholderConfigurer placeholderConfigurer() {
         PropertySourcesPlaceholderConfigurer propsConfig
                 = new PropertySourcesPlaceholderConfigurer();
@@ -21,5 +21,5 @@ public class CommitIdApplication {
         propsConfig.setIgnoreResourceNotFound(true);
         propsConfig.setIgnoreUnresolvablePlaceholders(true);
         return propsConfig;
-    }
+    }*/
 }
